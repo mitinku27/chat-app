@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinku.chatappwithfirebase.LoginActivity">
+
+    <include layout="@layout/app_toolbar" />
+
+    <TextView
+        android:id="@+id/logtextcrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/create_account"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/logtextInputLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logtextcrite">
+
+
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/logemailname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="@string/regemail"
+        android:inputType="textWebEmailAddress" />
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+android:id="@+id/logtextInputLayout2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/logtextInputLayout1">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/logpasswordname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="@string/regpassword"
+        android:inputType="textPassword" />
+</android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/logcreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/logtextInputLayout2"
+        android:layout_marginRight="25dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Log In"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
+
+</RelativeLayout>

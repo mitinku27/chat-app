@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChatAppWithFirebase</string>
+    <string name="regButton">Create A New Account</string>
+    <string name="regdisplayname">Display Name</string>
+    <string name="regemail">Email</string>
+    <string name="regpassword">Password</string>
+    <string name="regcirt">Create Account</string>
+    <string name="mensetting">Account Settings</string>
+    <string name="menusers">Users</string>
+    <string name="menlog_out">Log Out</string>
+    <string name="create_account">Create A New Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sendreq">send friend request</string>
+    <string name="declinefriendrequest">Decline request</string>
+</resources>

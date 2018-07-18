@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "269016610725",
+    "firebase_url": "https://chatappwithfirebase-b2d09.firebaseio.com",
+    "project_id": "chatappwithfirebase-b2d09",
+    "storage_bucket": "chatappwithfirebase-b2d09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269016610725:android:b790f0690f6ea523",
+        "android_client_info": {
+          "package_name": "com.example.tinku.chatappwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269016610725-ts6nubab1nfaekssv1fh5savuvvl5tlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tinku.chatappwithfirebase",
+            "certificate_hash": "10bffd0f6294113f7aa39fded276d3e5c895f698"
+          }
+        },
+        {
+          "client_id": "269016610725-13jhto8reblvfckhlhu3ug7pfalo3kr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2GHZW5JMU9vlVLYxVW8sM7rDCP1B6WN0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269016610725-13jhto8reblvfckhlhu3ug7pfalo3kr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
